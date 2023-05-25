@@ -1,0 +1,47 @@
+body {
+  font-family: cursive;
+}
+
+header {
+  background: #f8e800;
+  text-align: center;
+  padding: 25px;
+}
+
+.title {
+  font-weight: bold;
+  color: seagreen;
+  font-size: 30px;
+}
+
+.isi {
+  color: black;
+  font-size: 20px;
+}
+
+.atas {
+  text-align: center;
+  font-size: 30px;
+}
+
+.atas1 {
+  text-align: center;
+}
+
+.atas2 {
+  text-align: center;
+}
+
+.luasPersegi {
+  background: forestgreen;
+  text-align: center;
+  padding: 10px 10px;
+  font-size: 30px;
+}
+
+.kelilingPersegi {
+  background: rgb(4, 42, 255);
+  text-align: center;
+  padding: 10px 10px;
+  font-size: 30px;
+}

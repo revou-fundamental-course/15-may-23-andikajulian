@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Katik Kalkulator Matematik</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header><span class="title">Katik</span> <span class="isi"> Kalkulator Matematik</span></header>
+    <main>
+      <br>
+      <p class="atas">Welcome to Katik</h1>
+      <p class="atas1">Selamat Datang di Katik</p>
+      <p class="atas2">Sebuah web apps sederhana yang berfungsi untuk menghitung nilai luas dan keliling persegi</p>
+
+      <br>
+      <div class="luasPersegi">
+        <p style="color: white;">Luas Persegi</p>
+      </div>
+
+        <center>
+        <img src="assets/persegi.webp" alt="" height="250" width="250" margin="auto">
+        </center>  
+
+        <div class="deskripsiPersegi">
+      <p>Rumus Luas Persegi yaitu : </p>
+      <p>L = S x S</p>
+      <br>
+      <p>Di mana :</p>
+      <p>L = Luas</p>
+      <p>S = Sisi</p>
+        </div>
+
+      <div class="hitungLuas">
+        <h1 align = "center">Hitung Luas Persegi</h1>
+        <p align = "center" >Masukkan Sisi Persegi : <input type="text" id="s" class="sisi-luas" required>  <button onclick="luas()">Hitung</button></p>
+        
+        <p align = "center">Luas Persegi adalah = <span id="luas"></span></p>
+
+        <!-- <p>Keliling Persegi adalah = <span id="kel"></span></p> -->      
+      </div>
+
+      <br><br>
+
+      <div class="kelilingPersegi">
+        <p style="color: white;">Keliling Persegi</p>
+      </div>
+
+      <center>
+        <img src="assets/persegi.webp" alt="" height="250" width="250" margin="auto">
+      </center>
+
+      <div class="descKelPersegi">
+        <p>Rumus Keliling Persegi yaitu : </p>
+        <p>K = 4 x S</p>
+        <br>
+        <p>Di mana :</p>
+        <p>K = Keliling</p>
+        <p>S = Sisi</p>
+      </div>
+
+      <div class="hitungKeliling">
+        <h1 align = "center">Hitung Keliling Persegi</h1>
+        <p align = "center" >Masukkan Sisi Persegi : <input type="text" id="k" class="sisi-luas" required>  <button onclick="kel()">Hitung</button></p>
+        
+        <p align = "center">Keliling Persegi adalah = <span id="kel"></span></p>
+
+        <input type="reset" value="reset">
+        </div>
+
+
+
+
+    </main>
+
+    <footer>
+
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
